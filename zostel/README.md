@@ -16,6 +16,7 @@ In this project we have used the following tech stack: <br />
 - CSS-module
 - Styled Component
 - BootStrap
+- React 
 
 ## *Some Snapshots of our project that we made:-* <br />
 
