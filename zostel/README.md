@@ -17,7 +17,7 @@ In this project we have used the following tech stack: <br />
 - Styled Component
 - BootStrap
 - React 
-
+-
 ## *Some Snapshots of our project that we made:-* <br />
 
 ***Landing Page:-*** This is the Landing page (basically home page) when the user enters the website for the first time this page will show up. We have updated some of the carousel effects and animation. 
