@@ -1,0 +1,94 @@
+.bodyCont {
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+.mainContainer {
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+  background-color: #ffffff;
+}
+.galaryDiv {
+  height: 570px;
+  display: grid;
+  grid-template-columns: 69.2% 30%;
+  grid-gap: 10px;
+  border-radius: 8px;
+  cursor: zoom-in;
+}
+.galaryDiv img {
+  width: 100%;
+  background-size: cover;
+}
+.mainImage img {
+  height: 570px;
+  border-radius: 8px 0px 0px 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.smImage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.smImage img {
+  height: 182px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.firstImg {
+  border-radius: 0px 8px 0px 0px;
+}
+.lastImg {
+  border-radius: 0px 0px 8px 0px;
+}
+.viewAllImg {
+  position: absolute;
+  margin-left: 79%;
+  top: 81%;
+  cursor: pointer;
+}
+.contentDiv {
+  display: grid;
+  text-align: left;
+  grid-template-columns: 48% 48%;
+  grid-gap: 4%;
+}
+.headingTxt {
+  font-size: 36px;
+  color: #f1563f;
+  font-weight: 700;
+  margin: 30px 0px;
+}
+.textDiv {
+  margin: 20px 0px;
+}
+.textDiv p {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.showTextBtn {
+  color: #f1563f;
+  margin-top: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.linksHeading {
+  font-size: 28px;
+  color: #000000;
+  font-weight: 700;
+  margin-top: 25px;
+}
+.linksDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.linksDiv p {
+  font-size: 14px;
+  color: #43474b;
+  margin: 5px;
+}
+.linksDiv p span {
+  margin-right: 5px;
+}

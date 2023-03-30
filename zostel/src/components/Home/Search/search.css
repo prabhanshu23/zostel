@@ -1,0 +1,39 @@
+.background {
+  position: absolute;
+  height: 133px;
+  width: 65%;
+  margin: auto;
+  left: 224px;
+  right: 224px;
+  top: 65%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.option1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+  position: absolute;
+  width: 45%;
+  height: 48px;
+  left: 8px;
+  right: 500px;
+  top: 10px;
+  background: #f1563f;
+}
+
+.option2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px 120px;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.size {
+  width: 31%;
+}

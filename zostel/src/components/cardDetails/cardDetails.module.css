@@ -1,0 +1,61 @@
+.mainContainer{
+    text-align: center;
+    background-color: #ffffff;
+}
+.mainImg{
+    background: url("https://img.cdn.zo.xyz/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.headTxt{
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    position: absolute;
+    z-index: 999;
+    left: 43%;
+    top: 47%;
+}
+.content
+{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    
+}
+.welcome{
+    font-size: 36px;
+    color: #2A2A2A;
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+    font-weight: bold;
+}
+.cityName
+{
+    font-size: 36px;
+    color: #f15824;
+    font-weight: bold;
+    margin-top: -5px !important;
+}
+.about{
+    font-size: 14px;
+    font-weight: 600;
+}
+.aboutTxt{
+    font-size: 14px;
+    margin-top: -20px !important;
+}
+.showtxt{
+
+}
+.showTextBtn{
+    color: #f15824;
+    cursor: pointer;
+    margin-top: -5px;
+}

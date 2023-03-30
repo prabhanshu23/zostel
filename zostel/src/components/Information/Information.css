@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+}
+.info-main-wrapper {
+  /* margin: 0 calc(93% - 1440px);
+  margin-top: 52px; */
+  width: 90%;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+.heading {
+  display: flex;
+}
+.heading h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #000000;
+  margin: 0 10px;
+}
+
+section.info-top-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+}
+section.info-top-cont .left {
+  width: 840px;
+}
+section.info-top-cont .left .login {
+  border-radius: 8px;
+  background: #F1563F;
+  color: #ffffff;
+  font-family: Segoe UI;
+  font-style: normal;
+  padding: 16px;
+}
+section.info-top-cont .left .login h4 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 4px 0;
+}
+section.info-top-cont .left .login {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 68px;
+}
+
+section.info-top-cont .left .login .login-note {
+  width: 494px;
+}
+section.info-top-cont .left .login .login-btn button {
+  background: #ffffff;
+  color: #f1563f;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 242px;
+  height: 72px;
+  border-radius: 8px;
+  border: none;
+}
+section.info-top-cont .left .login .login-btn button:hover {
+  cursor: pointer;
+}
+section.info-top-cont .left .login .login-btn img {
+  height: 40px;
+  width: 40px;
+}
+section.info-top-cont .left .login .login-btn h5 {
+  font-weight: 600;
+  font-size: 20px;
+}
+section.info-top-cont .right {
+  background: #fafeff;
+  width: 440px;
+  height: 540px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  padding: 16px;
+  color: #000000;
+}
+section.info-top-cont .right .title h4 {
+  font-size: 24px;
+  margin-bottom: 6px;
+  line-height: 36px;
+}
+section.info-top-cont .right .title p {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+section.info-top-cont .right .title p span {
+  font-weight: 400;
+}
+section.info-top-cont .right .detail {
+  display: flex;
+  color: #2a2a2a;
+  gap: 0.4rem;
+  margin-top: 36px;
+}
+section.info-top-cont .right .detail .detail-1 img {
+  width: 71px;
+  height: 54px;
+  border-radius: 6px;
+}
+section.info-top-cont .right .detail .detail-2 p {
+  margin-bottom: 0.2rem;
+}
+section.info-top-cont .right .detail .detail-2 .detail-name {
+  width: 300px;
+}
+section.info-top-cont .right .detail .detail-3 p span {
+  font-weight: 400;
+}
+section.info-top-cont .right .detail .detail-3 {
+  width: 350px;
+  display: flex;
+  gap: 52%;
+}
+section.info-top-cont .right .tax {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+section.info-top-cont .right .tax h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+section.info-top-cont .right .tax p {
+  justify-content: flex-end;
+}
+
+section.info-top-cont .right .total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+section.info-top-cont .right .total h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+section.info-top-cont .right .total p {
+  justify-content: flex-end;
+}
+
+section.info-top-cont .right .pay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0 35px 0;
+}
+section.info-top-cont .right .pay h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+section.info-top-cont .right .pay p {
+  justify-content: flex-end;
+}
+section.info-top-cont .right .agree {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 29px 0;
+}
+
+section.info-top-cont .right .agree p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 400;
+}
+
+section.info-top-cont .right .reserve-btn button {
+  background: #616161;
+  border-radius: 6px;
+  padding: 17px 170px;
+  justify-content: center;
+  text-align: center;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+}
+
+section.info-top-cont .left .guest-info {
+  width: 845px;
+  height: 572px;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 14px;
+}
+section.info-top-cont .left .guest-info form {
+  padding: 21px;
+}
+
+section.info-top-cont .left .guest-info .form-input {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+section.info-top-cont .left .guest-info .form-input input,
+textarea {
+  padding: 8px;
+  height: 45px;
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+}
+section.info-top-cont .left .guest-info .form-input textarea {
+  height: 100px;
+}
+section.info-top-cont .left .guest-info .form-input select {
+  padding: 5px;
+  height: 45px;
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+}
+section.info-top-cont .left .guest-info .name input {
+  width: 31%;
+  border: 1px solid #c7c7c7;
+}
+section.info-top-cont .left .guest-info .form-input label {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  align-items: center;
+  color: #2a2a2a;
+  width: 104px;
+}
+
+section.info-top-cont .left .guest-info .form-input label::after {
+  color: #e32;
+  content: "*";
+  display: inline;
+  font-weight: bold;
+}
+
+section.info-top-cont .left .guest-info .title {
+  align-items: center;
+  background: #fafeff;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 16px 21px;
+}
+
+section.info-top-cont .left .guest-info .title h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  color: #43474b;
+}
+
+section.info-top-cont .left .guest-info form hr {
+  margin-bottom: 1.125rem;
+}
+section.info-top-cont .left .guest-info form p span {
+  color: #f1563f;
+}
+
+section.policy {
+  width: 845px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.info-main-wrapper #last-policy {
+  margin-bottom: 140px;
+}
+section.policy .left .title {
+  align-items: center;
+  background: #fafeff;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 16px 21px;
+}
+section.policy .left .title h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  color: #43474b;
+}
+section.policy .left .rules {
+  padding: 18px;
+}
+
+section.policy .left .rules p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2a2a2a;
+}
+section.info-top-cont .left .guest-info .form-input #inp:focus {
+  border-color: #238aba;
+  outline: none;
+}

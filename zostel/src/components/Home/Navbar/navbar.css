@@ -1,0 +1,75 @@
+.header {
+  position: absolute;
+  height: 60px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #ffff;
+}
+.header li {
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: relative;
+  width: 174px;
+  height: 44.19px;
+  left: 10px;
+  top: 8px;
+  z-index: 222;
+}
+
+.list {
+  list-style-type: none;
+  gap: 6rem;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  color: #252525;
+}
+
+/* //dropdown */
+.dropDown {
+  position: absolute;
+  left: 40%;
+  top: 80%;
+  z-index: 1;
+}
+
+.dropDown li:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.menu-options:hover {
+  /* background: black; */
+  color: #F1563F;
+  /* padding: 5px 2px; */
+}
+
+.menu-options:active {
+  background: black;
+  color: grey;
+  /* padding: 5px 2px; */
+}
+
+.option:active::before {
+  content: "";
+
+  background: black;
+}
+.option::after {
+  pointer-events: none;
+  background: black;
+}
+
+.zostal-homes {
+  left: 46%;
+}
+.join-us {
+  left: 80.3%;
+}

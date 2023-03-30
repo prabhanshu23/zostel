@@ -1,0 +1,22 @@
+{
+    "escape": [
+        {
+            "image": "../../../assets/images/annapurna.svg",
+            "location": "ADVENTURE | KATHMANDU",
+            "name": "ANNAPURNA BASE CAMP TREK",
+            "price": 14799,
+            "ratings": 5.0,
+            "days": 10,
+            "reviews": 10
+        },
+        {
+            "image": "../../../assets/images/desert-safari.svg",
+            "location": "ADVENTURE | JAISALMER",
+            "name": "DESERT SAFARI",
+            "price": 2500,
+            "ratings": 4.9,
+            "days": 1,
+            "reviews": 12
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+.mainConainer {
+  margin: 10px 0px 0px 0px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333;
+  background-color: #fff;
+  height: 100vh;
+}
+.logoBar {
+  max-width: 560px;
+  height: 75px;
+  min-height: 75px;
+  margin: 10px auto;
+}
+.logoLeft {
+  float: left;
+}
+.logoRight {
+  float: right;
+  padding-top: 20px;
+}
+.image {
+  max-width: 130px;
+  vertical-align: middle;
+  border: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.icons {
+  width: 14px;
+  height: 14px;
+}
+.iconImage {
+  margin-right: 5px;
+}
+.inpForm {
+  max-width: 560px;
+  padding-bottom: 20px;
+  border: 1px solid #1492cc;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.paymentHeading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #0a719c;
+  background-color: #0a719c;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+}
+.paymentContents {
+  padding: 20px 20px 0 20px;
+}
+
+.paymentInfo_a {
+  display: flex;
+  column-gap: 30%;
+  border-bottom: 1px solid #0a719c;
+  background-color: #f9f9f9;
+}
+.paymentInfo_a p {
+  margin: 8px !important;
+  font-size: 13px;
+}
+.paymentInfo_b {
+  display: flex;
+  column-gap: 30%;
+  border-bottom: 1px solid #0a719c;
+}
+.paymentInfo_b:hover {
+  display: flex;
+  column-gap: 30%;
+  border-bottom: 1px solid #0a719c;
+  background-color: #f9f9f9;
+}
+.paymentInfo_b p {
+  margin: 8px !important;
+  font-size: 13px;
+}
+.paymentInfo_c {
+  display: flex;
+  column-gap: 30%;
+  border-bottom: 1px solid #0a719c;
+  background-color: #f9f9f9;
+}
+
+.paymentInfo_c p {
+  margin: 8px !important;
+  font-size: 13px;
+}
+.orderInfo .orderInfoHeading,
+.paymentInfo .paymentInfoHeading {
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #0a719c;
+  font-size: 14px;
+  font-weight: bold;
+}
+.orderInfo .orderInfoHeading:hover,
+.paymentInfo .paymentInfoHeading:hover {
+  color: #0a719c;
+}
+
+.amount {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.paymentoptionHeading {
+  background-color: #f5f5f5;
+  margin: 20px 0px;
+  padding: 10px 0px 0px 10px;
+  border-bottom: 1px solid #0a719c;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+.paymentoptionHeading:hover {
+  color: #0a719c;
+}
+
+.term {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-left: 30%;
+}
+.term:hover {
+  border-bottom: 1px solid #0a719c;
+}
+
+.paymentsOption {
+  display: flex;
+  column-gap: 10%;
+}
+
+.paymentsOption p {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+.paymentsOption p:hover {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: none !important;
+  padding: 8px;
+  border-radius: 8px 8px 0px 0px;
+}
+.debitCard {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: none !important;
+  padding: 8px;
+  border-radius: 8px 8px 0px 0px;
+}
+.cardNumber {
+  display: flex;
+  margin-top: 10px;
+}
+.cardNumber p {
+  margin-top: 2px;
+}
+.cardNoInp {
+  margin-left: 10%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline-color: #1492cc;
+  width: 180px;
+}
+.visaCard {
+  height: 15px;
+  margin-left: 5px;
+}
+.expiry {
+  margin-left: 9%;
+  display: flex;
+  column-gap: 2px;
+}
+.expiry input {
+  height: 35px;
+  width: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline-color: #1492cc;
+}
+.expiry p {
+  padding-top: 5px;
+}
+.cvv {
+  padding-top: 7px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+.question {
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.saveinfo {
+  display: flex;
+  column-gap: 1%;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #feffd4;
+}
+.saveinfo p {
+  padding-top: 4px;
+  margin-top: 6px;
+}
+.saveinfo input {
+  padding-left: 20%;
+}
+.saveContent {
+  padding-left: 25%;
+}
+.btnDiv {
+  padding: 17px 20px 18px;
+  margin-top: 18px;
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+.payBtn {
+  background-color: #0074cc;
+  padding: 5px 20px;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.cardLogoDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.cardLogoDiv img {
+  height: 50px;
+}

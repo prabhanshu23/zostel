@@ -1,0 +1,121 @@
+.headingDiv {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    display: grid;
+    position: sticky;
+    grid-template-columns: 32% 32% 36%;
+    margin-top: 30px;
+  
+}
+
+.bookingRange {
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    column-gap: 10px;
+    padding: 0 15px;
+    padding-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 36px;
+    color: #2A2A2A;
+    margin-bottom: 0px !important;
+}
+
+.subHeading {
+    font-weight: normal;
+    font-size: 18px;
+    color: #2A2A2A;
+    font-weight: 600;
+    margin-top: 0px !important;
+}
+
+.bookingRange p {
+    font-size: 14px;
+}
+
+.rightaeroDiv {
+    width: 44px;
+    /* height: 51px; */
+}
+
+.rightaero {
+    width: 15.84px;
+    height: 15.84px;
+    /* position: relative; */
+}
+
+.mainDiv {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.manLogo {
+    width: 207px;
+    height: 207px;
+    position: relative;
+    right: 85px;
+}
+
+
+.manLogotxt {
+    font-weight: 900;
+    font-size: 14px;
+    position: relative;
+    right: 85px;
+}
+
+.summaryhead{
+    text-align: left;
+    display: flex;
+    column-gap: 15px;
+    justify-content: space-between;
+}
+.deleteLogo{
+    height: 15px;
+    width: 11.5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.summarytitle{
+    font-size: 1rem;
+    font-weight: 900;
+}
+.priceDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+.summaryprice{
+    font-size: 1rem;
+    font-weight: 900;
+}
+.tax{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.bookNowbtn{
+    margin: auto;
+    height: 48px;
+    background-color:#F1563F;
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 14px;
+    margin-top: 20px;
+
+}
+.bookNowtxt{
+    font-size: 14px;
+}

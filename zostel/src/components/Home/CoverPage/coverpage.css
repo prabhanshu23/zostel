@@ -1,0 +1,28 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+/* @import url(//db.onlinewebfonts.com/c/cf73d2680fe0e0d00f78c7295e3617e0?family=Selima); */
+@font-face {
+  font-family: "selima";
+  src: url("./selima_-webfont\ copy.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.images {
+  width: 100%;
+}
+
+.live-it-now {
+  position: absolute;
+  top: 35%;
+  font-family: selima;
+  color: #ffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 138px;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.19);
+  display: flex;
+  align-items: center;
+  height: 120px;
+  left: calc(48% - 370px / 2);
+}
